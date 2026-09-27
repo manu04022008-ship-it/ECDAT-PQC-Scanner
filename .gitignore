@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Build / generated files
+dist/
+build/
+.next/
+.cache/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/*.dmg
+*.dmg
